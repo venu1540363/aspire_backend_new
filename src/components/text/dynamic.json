@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_dynamics",
+  "info": {
+    "displayName": "dynamic"
+  },
+  "options": {},
+  "attributes": {
+    "ead": {
+      "displayName": "fdv",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.fdv"
+    }
+  }
+}

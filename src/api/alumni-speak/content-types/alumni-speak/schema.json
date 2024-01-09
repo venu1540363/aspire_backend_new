@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumni_speaks",
+  "info": {
+    "singularName": "alumni-speak",
+    "pluralName": "alumni-speaks",
+    "displayName": "AlumniSpeak",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AlumniCard": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AlumniCardData": {
+      "type": "blocks"
+    },
+    "DetailBlogs": {
+      "displayName": "Component",
+      "type": "component",
+      "repeatable": true,
+      "component": "detailed-blogs.component"
+    }
+  }
+}

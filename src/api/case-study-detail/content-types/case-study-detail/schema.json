@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_study_details",
+  "info": {
+    "singularName": "case-study-detail",
+    "pluralName": "case-study-details",
+    "displayName": "CaseStudyDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CaseStudyDetailContent": {
+      "type": "blocks"
+    },
+    "Result": {
+      "type": "text"
+    }
+  }
+}

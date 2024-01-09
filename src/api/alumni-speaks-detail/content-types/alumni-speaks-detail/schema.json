@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumni_speaks_details",
+  "info": {
+    "singularName": "alumni-speaks-detail",
+    "pluralName": "alumni-speaks-details",
+    "displayName": "AlumniSpeaksDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AlumniDetailCover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "AlumniDetailContent": {
+      "type": "blocks"
+    }
+  }
+}

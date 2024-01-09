@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_detailed_blogs_components",
+  "info": {
+    "displayName": "Component"
+  },
+  "options": {},
+  "attributes": {
+    "blog": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "para1SubHeading": {
+      "type": "string"
+    },
+    "para1Des": {
+      "type": "text"
+    }
+  }
+}

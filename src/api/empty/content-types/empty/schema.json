@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empties",
+  "info": {
+    "singularName": "empty",
+    "pluralName": "empties",
+    "displayName": "Empty1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Empty": {
+      "type": "blocks"
+    }
+  }
+}

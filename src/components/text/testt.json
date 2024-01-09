@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_text_testts",
+  "info": {
+    "displayName": "testt"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "mvnn": {
+      "type": "string"
+    },
+    "mobil3": {
+      "type": "biginteger"
+    }
+  }
+}
