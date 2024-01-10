@@ -874,6 +874,7 @@ export interface ApiBlogDetailBlogDetail extends Schema.CollectionType {
     BlogDetailImage: Attribute.Media;
     BlogDetailContent: Attribute.Blocks;
     BlogContentImage: Attribute.Media;
+    footer: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
